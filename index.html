@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Profile</title>
+  </head>
+  <body>
+    <h1>Welcome to My Profile</h1>
+    <p>Halaman ini akan menjadi profil saya dengan menggunakan HTML</p>
+
+    <p>
+      <a href="#tentang">Tentang Saya</a> |
+      <a href="#pendidikan">Pendidikan</a> | <a href="#keahlian">Keahlian</a> |
+      <a href="#kontak">Kontak</a>
+    </p>
+    <hr />
+
+    <h2 id="tentang">Tentang Saya</h2>
+    <img src="profile.png" alt="profile" height="250px" />
+    <p>
+      Halooo, nama saya <b>Abid Abdussalam</b>. Saya adalah mahasiswa
+      <i>Informatika</i> yang tertarik pada pengembangan web
+    </p>
+    <hr />
+
+    <h2 id="pendidikan">Riwayat Pendidikan</h2>
+    <table border="2">
+      <tr>
+        <th>Tahun</th>
+        <th>Institusi</th>
+        <th>Jurusan</th>
+      </tr>
+      <tr>
+        <th>2021-2024</th>
+        <th>SMK SpaceX</th>
+        <th>space exploration</th>
+      </tr>
+      <tr>
+        <th>2024-Sekarang</th>
+        <th>Stanford University</th>
+        <th>ITB (Informatika Bengkulu)</th>
+      </tr>
+    </table>
+    <hr />
+
+    <h2 id="keahlian">Keahlian</h2>
+    <h3>Bahasa Pemrograman</h3>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+
+    <ol>
+      <li>Membaca</li>
+      <li>Menonton</li>
+      <li>Ngoding</li>
+    </ol>
+    <hr />
+
+    <h2 id="kontak">Kontak</h2>
+    <form>
+      <p>
+        <label for="nama">Nama:</label><br />
+        <input type="text" id="nama" name="nama" placeholder="Masukkan nama" />
+      </p>
+
+      <p>
+        <label for="email">Email:</label><br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Masukkan email"
+        />
+      </p>
+
+      <p>
+        <label for="pesan">Pesan:</label><br />
+        <textarea id="pesan" name="pesan" rows="4" cols="40"></textarea>
+      </p>
+
+      <input type="submit" value="Kirim" />
+    </form>
+    <hr />
+
+    <p>&copy; 2026 Nama Mahasiswa</p>
+    <p>
+      Kunjungi:
+      <a href="https://github.com">GitHub</a> |
+      <a href="https://instagram.com">Instagram</a>
+    </p>
+  </body>
+</html>
